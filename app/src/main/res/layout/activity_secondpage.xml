@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    tools:context=".secondpage">
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:background="@drawable/gk1"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:background="@drawable/sk1"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="250dp"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:background="@drawable/fd1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"/>
+
+
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="10dp"
+        android:text="Drink"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button"
+        android:onClick="Drink"
+        />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="10dp"
+        android:text="FOODS"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:onClick="Foods"
+        android:background="@drawable/custom_button"
+        />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="190dp"
+        android:text="SNAKS"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="Snaks"
+        android:background="@drawable/custom_button"
+        />
+
+
+
+</RelativeLayout>
